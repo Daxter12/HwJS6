@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Интернет магазин</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <span class="logo">E-Shop</span>
+        <div class="cart">
+          <filter_el></filter_el>
+          <cart ref="cart"></cart>
+        </div>
+      </header>
+      <main>
+        <products ref="products"></products>
+      </main>
+    </div>
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+      integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script src="js/getRequest.js"></script>
+    <script src="js/CartComp.js"></script>
+    <script src="js/FilterComp.js"></script>
+    <script src="js/ProdComp.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
